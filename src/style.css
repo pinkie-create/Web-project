@@ -1,0 +1,42 @@
+.hidden {
+    display: none;
+}
+
+.btn {
+    padding: 7px;
+    margin: 15px 0;
+    font-size: 20px;
+    border-radius: 3px;
+    background: transparent;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #1d49aa;
+
+}
+
+.btn-default {
+    color: #4676D7;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 3px solid #4676d7;
+    text-decoration: none;
+    background: #fff;
+}
+
+input {
+    border-color: #4676d7;
+    border-radius: 3px;
+    padding: 8px 16px;
+    outline: none;
+}

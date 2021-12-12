@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Урок 1</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <script type="module" src="/DateCalculator/js/main.js"></script> -->
+</head>
+
+<body>
+    <div><button class="btn" onclick="document.getElementById('dateBox').classList.toggle('hidden')">Калькулятор
+            дат</button></div>
+    <div id='dateBox' class="hidden">
+        <h2>Калькулятор дат</h2>
+        <form id="calcDate">
+            <label for="dateFrom">
+                Первая дата:
+                <input type="date" name="dateFrom" id="dateFrom">
+            </label>
+            <label for="dateTo">
+                Вторая дата:
+                <input type="date" name="dateTo" id="dateTo">
+            </label>
+            <button class="btn-default" type="submit">Рассчитать промежуток</button>
+        </form>
+        <p id="output"></p>
+    </div>
+    <div> <button class="btn" onclick="document.getElementById('timerBox').classList.toggle('hidden')">
+            Таймер
+        </button></div>
+    <div id='timerBox' class="hidden">
+        <h2>Таймер</h2>
+        <form id="timer">
+            <label for="time">
+                Время в минутах
+                <input type="number" name="time" id="time">
+            </label>
+            <button class="btn-default" type="submit">Старт</button>
+        </form>
+        <button class="btn-default" id="stop">Стоп</button>
+        <p id="outputTimer"></p>
+    </div>
+</body>
+
+</html>

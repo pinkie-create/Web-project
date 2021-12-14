@@ -30,7 +30,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             template: path.resolve('src', 'template.html')
-        }),
-        new BundleAnalyzerPlugin()
+        })
+        // , new BundleAnalyzerPlugin()
     ]
 };

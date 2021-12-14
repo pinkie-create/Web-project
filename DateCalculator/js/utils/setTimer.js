@@ -13,7 +13,7 @@ function setTimer(time) {
         if (time === 0) {
             clearInterval(timerID)
             const sound = new Howl({
-                src: ['../../../sound.mp3']
+                src: ['../../sound.mp3']
             });
 
             sound.play();
